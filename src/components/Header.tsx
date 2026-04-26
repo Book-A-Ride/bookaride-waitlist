@@ -31,9 +31,7 @@ export default function Header() {
             <div className="container mx-auto px-5 sm:px-8 flex items-center justify-between max-w-6xl">
                 {/* Logo + Brand */}
                 <div className="flex items-center gap-2.5">
-                    <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center shadow-md shadow-blue-500/25">
-                        <Car className="w-5 h-5 text-white" />
-                    </div>
+                    <img src="./logo.png" alt="bookaride logo" className='w-15 h-5' />
                     <span className="text-lg font-black tracking-tight text-slate-900">
                         Book A Ride
                     </span>
