@@ -30,12 +30,12 @@ export default function Header() {
         >
             <div className="container mx-auto px-5 sm:px-8 flex items-center justify-between max-w-6xl">
                 {/* Logo + Brand */}
-                <div className="flex items-center gap-2.5">
+                <a href="https://bookaride.cv/" className="flex items-center gap-2.5">
                     <img src="./logo.png" alt="bookaride logo" className='w-14 h-5' />
                     <span className="text-lg font-black tracking-tight text-slate-900">
                         Book A Ride
                     </span>
-                </div>
+                </a>
 
                 {/* CTA pill */}
                 <a
